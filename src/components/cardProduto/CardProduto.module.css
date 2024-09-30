@@ -1,0 +1,24 @@
+.precos{
+    display: inline-flex;    
+}
+.precoAtual{
+    color: #DB4444;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+.precoAnterior{
+    text-decoration: line-through;
+    color: rgb(146, 146, 146);
+    margin-bottom: 5px;
+
+}
+.avaliacao{
+    display: inline-flex;    
+}
+.titulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-size: 20px;
+}

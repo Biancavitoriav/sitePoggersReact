@@ -1,0 +1,41 @@
+.container {
+    border: 2px solid rgb(144, 144, 144);
+    width: 150px;
+    text-align: center; 
+    height: 130px;
+}
+
+.titulo {
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.container:hover {
+    border: none;
+    background-color: #DB4444;
+    color: white;
+}
+
+.container:hover .icone {
+    filter: brightness(0) invert(1); 
+}
+
+.container:hover .titulo {
+    color: white;
+}

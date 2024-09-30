@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "fotops5 fotops5"
+    "coluna2" "coluna2";
+    gap: 10px;
+}
+.fotops5 {
+    display: grid;
+    padding: 30px;
+    grid-area: fotops5;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "logo botoes";
+    grid-template-rows: 1fr;
+}
+.fotomulher {
+    display: grid;
+    padding: 30px;
+    grid-area: fotomulher;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "logo botoes";
+    grid-template-rows: 2fr;
+}
+.fotoalexa {
+    display: grid;
+    padding: 30px;
+    grid-area: fotoalexa;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "logo botoes";
+    grid-template-rows: 2fr;
+}
+.perfume {
+    display: grid;
+    padding: 30px;
+    grid-area: fotoperfume;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}

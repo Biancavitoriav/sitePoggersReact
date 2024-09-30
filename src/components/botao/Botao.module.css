@@ -1,0 +1,14 @@
+.botao{
+    background-color: #DB4444;
+    color: aliceblue;
+    border: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

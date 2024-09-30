@@ -1,0 +1,7 @@
+.hero{
+    margin-top: 100px;
+}
+.fundo{
+    display: flex;
+    justify-content: center;
+}

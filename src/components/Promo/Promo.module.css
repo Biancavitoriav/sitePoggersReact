@@ -1,0 +1,38 @@
+.fundo{
+    background-color: black;
+    color: beige;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.container {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+ 
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+ 
+.dropdown{
+    background: none;
+    color: white;
+    border: none;
+    height: 48px;
+}
+ 
+.opcao{
+    background-color: none;
+}
